@@ -1,0 +1,28 @@
+body, html, #ui-overlay  {
+  color: #0051BA;
+  background-color: #FFDA1A;
+}
+
+#ui-bar {
+  display: none
+}
+
+br {
+}
+
+#story {
+  margin: 0px !important;
+  margin-left: 0px !important;
+  max-width: none !important;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-size: 4em;
+
+}
+
+#passages {
+border-width:20px;
+border-style:solid;
+border-color:#0051BA;
+margin: 40px;
+padding: 40px;
+}
