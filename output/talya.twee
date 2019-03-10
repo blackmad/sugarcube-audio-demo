@@ -1,6 +1,6 @@
 :: StorySettings
-zoom:1
 ifid:d13aed9c-d242-4afb-9f3e-3c673b59c665
+zoom:1
 
 
 :: StoryTitle
@@ -23,7 +23,6 @@ And story here
 
 
 ANDNNDNDNDNDNDNDND
-<br/>
 <<link "Click here to start">>
 	<<audio "beep" play goto "start2">>
 <</link>>
@@ -34,7 +33,7 @@ ANDNNDNDNDNDNDNDND
 
 <<cacheaudio "az" "file:///Users/blackmad/Dropbox/Documents/Narrative Experiments/Twine/Stories/media/Azimuth.mp3">>
 
-AZ 
+AZ
 
 <<audio "az" play>>
 
@@ -66,6 +65,8 @@ Setting the mood ...
 
 Oh, that's good she said.
 
+THE END
+
 
 :: a man went to a club
 <<cacheaudio "boom" "media/Boom.mp3">>
@@ -73,6 +74,9 @@ Oh, that's good she said.
 A man came up and asked <<link "Would you like to hear some sick beats?">>
 	<<audio "boom" play>>
 <</link>>
+
+<br><br><br>
+THE END
 
 
 :: audioonend.js [script]

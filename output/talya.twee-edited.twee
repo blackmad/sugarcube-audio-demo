@@ -1,7 +1,7 @@
 
 :: StorySettings
-zoom:1
 ifid:d13aed9c-d242-4afb-9f3e-3c673b59c665
+zoom:1
 
 
 :: StoryTitle
@@ -20,12 +20,11 @@ talya2
 And story here
 
 ANDNNDNDNDNDNDNDND
-<br/>
 <<link "Click here to start">>	<<audio "beep" play goto "start2">>
 <</link>>
 
 :: world
-<<audio ":all" stop>><<cacheaudio "az" "file:///Users/blackmad/Dropbox/Documents/Narrative Experiments/Twine/Stories/media/Azimuth.mp3">>AZ 
+<<audio ":all" stop>><<cacheaudio "az" "file:///Users/blackmad/Dropbox/Documents/Narrative Experiments/Twine/Stories/media/Azimuth.mp3">>AZ
 <<audio "az" play>>
 
 :: test2
@@ -46,11 +45,15 @@ Double-click this passage to edit it.
 <<cacheaudio "water" "media/462315__taya-yelton__pouring-water.wav.mp3">><img src="media/SarcasticFittingAltiplanochinchillamouse-size_restricted.gif">
 <<audio "water" play>>Oh, that's good she said.
 
+THE END
+
 
 :: a man went to a club
 <<cacheaudio "boom" "media/Boom.mp3">>A man came up and asked <<link "Would you like to hear some sick beats?">>
 	<<audio "boom" play>>
-<</link>>
+<</link>><br><br><br>
+THE END
+
 
 :: audioonend.js [script]
 /*! <<audioloopto>> macro set for SugarCube 2.x */
